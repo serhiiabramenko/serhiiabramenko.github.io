@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- PRE-LAUNCH: keeps search engines from indexing the page. Delete this line when the site goes live. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Serhii Abramenko</title>
+<meta name="description" content="Serhii Abramenko, PhD candidate at the Rome Economics Doctorate (RED). Labor economics, political economy, economics of culture. On the 2026–27 job market.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+  :root {
+    --paper: #ffffff;
+    --ink: #1c1d1f;
+    --muted: #5c6068;
+    --rule: #dfe2e6;
+    --accent: #23407a;
+    --accent-soft: #eef2f8;
+    --serif: "Source Serif 4", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: "Source Sans 3", "Helvetica Neue", Arial, system-ui, sans-serif;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #151619;
+      --ink: #e6e6e3;
+      --muted: #a2a6ad;
+      --rule: #2c2f34;
+      --accent: #9db8ea;
+      --accent-soft: #1d2434;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #151619;
+    --ink: #e6e6e3;
+    --muted: #a2a6ad;
+    --rule: #2c2f34;
+    --accent: #9db8ea;
+    --accent-soft: #1d2434;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-block: 3rem 4rem;
+    padding-inline: 20px;
+  }
+  main { max-width: 700px; margin: 0 auto; }
+
+  a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  /* Header */
+  .masthead { display: flex; gap: 2rem; align-items: flex-start; }
+  .masthead img {
+    width: 160px; height: 200px; object-fit: cover; flex: 0 0 auto;
+    border-radius: 3px; max-width: 100%;
+  }
+  .masthead h1 {
+    font-family: var(--serif); font-weight: 600; font-size: 2rem; line-height: 1.15;
+    margin: 0 0 .6rem; letter-spacing: -0.01em; text-wrap: balance;
+  }
+  .masthead p { margin: 0 0 .6rem; }
+  .links { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin-top: 1rem; font-family: var(--sans); font-size: .95rem; }
+  .links a { text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
+  @media (max-width: 520px) {
+    .masthead { flex-direction: column; gap: 1.25rem; }
+    .masthead img { width: 136px; height: 170px; }
+    .masthead h1 { font-size: 1.75rem; }
+  }
+
+  /* Sections */
+  section { margin-top: 2.75rem; }
+  h2 {
+    font-family: var(--sans); font-weight: 600; font-size: .8rem;
+    letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 1rem; padding-bottom: .4rem; border-bottom: 1px solid var(--rule);
+  }
+  .paper + .paper { margin-top: 1.75rem; }
+  .paper h3 { font-family: var(--serif); font-weight: 600; font-size: 1.15rem; line-height: 1.3; margin: 0 0 .3rem; text-wrap: balance; }
+  .paper .meta { margin: 0; color: var(--muted); font-size: .95rem; }
+  .paper .meta em { font-style: italic; }
+  .paper .actions { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin: .45rem 0 0; font-family: var(--sans); font-size: .9rem; }
+  .paper .actions a { text-decoration: none; }
+  .paper .actions a:hover { text-decoration: underline; }
+  .paper .actions .tba { color: var(--muted); }
+  .abstract { margin: .75rem 0 0; }
+  .abstract p { margin: 0; }
+  .abstract p + p { margin-top: .6rem; }
+  details { margin-top: .5rem; }
+  summary {
+    cursor: pointer; font-family: var(--sans); font-size: .9rem; color: var(--accent);
+    list-style: none; display: inline-block;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "+ "; }
+  details[open] summary::before { content: "\2212\00a0"; }
+  summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  .tba-note { color: var(--muted); font-style: italic; }
+
+  footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: .85rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="masthead">
+    <img src="photo.jpg" alt="Serhii Abramenko" width="160" height="200">
+    <div>
+      <h1>Serhii Abramenko</h1>
+      <p>I am a PhD candidate at the Rome Economics Doctorate (RED). My research interests are in labor economics, political economy, and the economics of culture. I am on the 2026–27 academic job market.</p>
+      <nav class="links" aria-label="Links">
+        <a href="Abramenko_CV.pdf">Curriculum Vitae (PDF)</a>
+        <a href="mailto:sabramenko@redphd.it">sabramenko@redphd.it</a>
+        <a href="https://www.linkedin.com/in/serhii-abramenko-56808a357/" rel="me">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="jmp">
+    <h2>Job Market Paper</h2>
+    <article class="paper">
+      <h3>Student Mobility and Migration: Evidence from the Erasmus Programme</h3>
+      <p class="actions"><span class="tba">Paper available soon</span></p>
+      <div class="abstract">
+        <p class="tba-note">Abstract to be announced.</p>
+      </div>
+    </article>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <article class="paper">
+      <h3>Social Media as an Identity Barometer: Evidence from the Russia-Ukraine War</h3>
+      <p class="meta">with Vasily Korovkin and Alexey Makarin. <em>AEA Papers and Proceedings</em>, 2024, 114: 70–74.</p>
+      <p class="actions">
+        <a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20241056">Published version</a>
+        <a href="https://doi.org/10.1257/pandp.20241056">DOI</a>
+      </p>
+      <details>
+        <summary>Abstract</summary>
+        <div class="abstract">
+          <p>This study investigates how social media data can be used to study shifts in identity, focusing on Ukraine during the Russia-Ukraine war. We analyze VK users' reported language proficiency and the language of tweets and note a significant shift from Russian to Ukrainian during both the early (2014–2022) and later (2022–) phases of the war. Additionally, we observe a positive association at the province level between these language changes and shifts in ethnic identity reported in nationally representative surveys. The findings underscore the effectiveness of social media data in tracking and quantifying shifts in identity.</p>
+        </div>
+      </details>
+    </article>
+  </section>
+
+  <section id="working-papers">
+    <h2>Working Papers</h2>
+    <article class="paper">
+      <h3>War and Nation-Building: Evidence from Ukraine</h3>
+      <p class="meta">with Vasily Korovkin, Alexey Makarin, and Moses Shayo.</p>
+      <p class="actions">
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6622118">Paper (SSRN)</a>
+      </p>
+      <details open>
+        <summary>Abstract</summary>
+        <div class="abstract">
+          <p>How quickly and how deeply can violent conflict reshape national identity? We study this question in the context of Ukraine and the Russia-Ukraine war, using rich data spanning ethnic, linguistic, and cultural dimensions of identity. We document large and persistent shifts toward Ukrainian identity, alongside declines in Russian and mixed identities, following the conflict's onset in 2014 and Russia's full-scale invasion in 2022. In a series of nationally representative surveys, Ukrainian ethnic identification rises by about 9 percentage points after 2014 and by a further 6 percentage points after 2022. Consistent with national consolidation rather than polarization, the largest shifts occurred in districts with historically higher shares of ethnic Russians. Language use has evolved in parallel: changes after 2014 were modest, but after 2022 the share of respondents answering surveys in Ukrainian rises by roughly 20 percentage points, a pattern corroborated by within-user evidence from Twitter and Google search behavior. Cultural consumption and intergenerational choices also shifted sharply after 2022, toward Ukrainian cuisine, Ukrainian-language music, and traditionally more Ukrainian baby names. These patterns are not explained by compositional change or population displacement. Together, the results show that national identity is far more malleable than commonly assumed: large-scale violence can generate rapid, behaviorally meaningful, and broadly shared identity change, even among populations with substantial prewar cultural and linguistic ties to the aggressor.</p>
+        </div>
+      </details>
+    </article>
+  </section>
+
+  <footer>
+    Last updated September 2026.
+  </footer>
+
+</main>
+</body>
+</html>
