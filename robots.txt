@@ -1,0 +1,3 @@
+   User-agent: *
+   Allow: /
+   Sitemap: https://serhiiabramenko.github.io/sitemap.xml
